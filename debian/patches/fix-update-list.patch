@@ -1,0 +1,18 @@
+diff --git a/zone.tab b/zone.tab
+index 408fcb2..a8df32a 100644
+--- a/zone.tab
++++ b/zone.tab
+@@ -146,7 +146,12 @@ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+ CM	+0403+00942	Africa/Douala
+ CN	+3114+12128	Asia/Shanghai	Beijing Time
+-CN	+4348+08735	Asia/Urumqi	Xinjiang Time
++CN      +3114+12128     Asia/Beijing    Beijing Time
++CN      +3114+12128     Asia/Chengdu    Beijing Time
++CN      +3114+12128     Asia/Nanjing    Beijing Time
++CN      +3114+12128     Asia/Wuhan      Beijing Time
++CN      +3114+12128     Asia/Xian       Beijing Time
++CN      +3114+12128     Asia/Urumqi     Beijing Time
+ CO	+0436-07405	America/Bogota
+ CR	+0956-08405	America/Costa_Rica
+ CU	+2308-08222	America/Havana
