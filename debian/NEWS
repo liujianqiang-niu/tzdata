@@ -1,0 +1,13 @@
+tzdata (2023d-1) unstable; urgency=medium
+
+    From 2023c-8 on the tzdata package ships only timezones that follow the
+    current rules of geographical region (continent or ocean) and city name.
+    All legacy timezone symlinks (old or merged timezones mentioned in the
+    upstream backward file) were moved to tzdata-legacy. This includes the
+    US/* timezones.
+
+    Please install tzdata-legacy in case you need the legacy timezones or to
+    restore the previous behavior. This might be needed in case the system
+    provides timezone-aware data over the network (e. g. SQL databases).
+
+ -- Benjamin Drung <bdrung@debian.org>  Tue, 02 Jan 2024 14:17:33 +0100

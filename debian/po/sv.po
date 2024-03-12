@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the tzdata package.
 #
 # Christer Andersson <klamm@comhem.se>, 2008.
-# Martin Bagge <brother@persilja.net>, 2008, 2011, 2013, 2021
+# Martin Bagge <brother@persilja.net>, 2008, 2011, 2013, 2021, 2023
 # Luna Jernberg <droidbittin@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: sv\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
 "POT-Creation-Date: 2023-08-07 14:48+0200\n"
-"PO-Revision-Date: 2021-10-04 12:32+0200\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2023-10-26 22:34+0200\n"
+"Last-Translator: Martin Bagge <brother@persilja.net>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -3788,3 +3788,7 @@ msgid ""
 "negative values for those east of Greenwich (e.g., 'Etc/GMT+6' refers to 6 "
 "hours west of Greenwich, commonly called 'UTC-6')."
 msgstr ""
+"Ange din tidszon. I kontrast till moderna konventioner anges POSIX-"
+"kompatibla zoner med positiva värden väster om Greenwich och negativa värden "
+"öster om Greenwich (ex. Etc/GMT+6 avser sex timmar väster om Greenwich, vad "
+"som allmänt kallas UTC-6)."

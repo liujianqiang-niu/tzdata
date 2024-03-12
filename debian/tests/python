@@ -156,6 +156,12 @@ class TestZoneinfo(unittest.TestCase):
         date = datetime.datetime(2023, 4, 2, tzinfo=tzinfo)
         self.assertEqual(self._hours(date.utcoffset()), 3)
 
+    def test_2023d(self) -> None:
+        """Test 2023d release: Vostok being on +05 from 2023-12-18 on."""
+        tzinfo = zoneinfo.ZoneInfo("Antarctica/Vostok")
+        date = datetime.datetime(2023, 12, 19, tzinfo=tzinfo)
+        self.assertEqual(self._hours(date.utcoffset()), 5)
+
 
 def main() -> None:
     """Run unit tests in verbose mode."""

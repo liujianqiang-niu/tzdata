@@ -458,3 +458,4 @@ usr/share/zoneinfo/WET
 usr/share/zoneinfo/posixrules
 zone.tab usr/share/zoneinfo/
 zone1970.tab usr/share/zoneinfo/
+zonenow.tab usr/share/zoneinfo/
