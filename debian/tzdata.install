@@ -243,6 +243,11 @@ usr/share/zoneinfo/Asia/Brunei
 usr/share/zoneinfo/Asia/Chita
 usr/share/zoneinfo/Asia/Choibalsan
 usr/share/zoneinfo/Asia/Chongqing
+usr/share/zoneinfo/Asia/Beijing
+usr/share/zoneinfo/Asia/Chengdu
+usr/share/zoneinfo/Asia/Nanjing
+usr/share/zoneinfo/Asia/Wuhan
+usr/share/zoneinfo/Asia/Xian
 usr/share/zoneinfo/Asia/Colombo
 usr/share/zoneinfo/Asia/Damascus
 usr/share/zoneinfo/Asia/Dhaka

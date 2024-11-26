@@ -1,0 +1,70 @@
+Index: tzdata/asia
+===================================================================
+--- tzdata.orig/asia
++++ tzdata/asia
+@@ -655,8 +655,8 @@ Zone	Asia/Shanghai	8:05:43	-	LMT	1901
+ 			8:00	PRC	C%sT
+ # Xinjiang time, used by many in western China; represented by Ürümqi / Ürümchi
+ # / Wulumuqi.  (Please use Asia/Shanghai if you prefer Beijing time.)
+-Zone	Asia/Urumqi	5:50:20	-	LMT	1928
+-			6:00	-	+06
++#Zone	Asia/Urumqi	5:50:20	-	LMT	1928
++#			6:00	-	+06
+ 
+ # Hong Kong
+ 
+Index: tzdata/backward
+===================================================================
+--- tzdata.orig/backward
++++ tzdata/backward
+@@ -276,6 +276,12 @@ Link	America/Toronto		America/Thunder_Ba
+ Link	America/Edmonton	America/Yellowknife
+ Link	Pacific/Auckland	Antarctica/South_Pole
+ Link	Asia/Shanghai		Asia/Chongqing
++Link    Asia/Shanghai       Asia/Beijing
++Link    Asia/Shanghai       Asia/Chengdu
++Link    Asia/Shanghai       Asia/Nanjing
++Link    Asia/Shanghai       Asia/Wuhan
++Link    Asia/Shanghai       Asia/Xian
++Link    Asia/Shanghai       Asia/Urumqi
+ Link	Asia/Shanghai		Asia/Harbin
+ Link	Asia/Urumqi		Asia/Kashgar
+ Link	Asia/Jerusalem		Asia/Tel_Aviv
+Index: tzdata/zone.tab
+===================================================================
+--- tzdata.orig/zone.tab
++++ tzdata/zone.tab
+@@ -143,7 +143,13 @@ CL	-5309-07055	America/Punta_Arenas	Regi
+ CL	-2709-10926	Pacific/Easter	Easter Island
+ CM	+0403+00942	Africa/Douala
+ CN	+3114+12128	Asia/Shanghai	Beijing Time
+-CN	+4348+08735	Asia/Urumqi	Xinjiang Time
++CN	+3992+11646	Asia/Beijing	Beijing Time
++CN	+3067+10406	Asia/Chengdu	Beijing Time
++CN	+2959+10654	Asia/Chongqing	Beijing Time
++CN	+3204+11878	Asia/Nanjing	Beijing Time
++CN	+3052+11431	Asia/Wuhan	Beijing Time
++CN	+3427+10895	Asia/Xian	Beijing Time
++CN	+4377+08768	Asia/Urumqi	Beijing Time
+ CO	+0436-07405	America/Bogota
+ CR	+0956-08405	America/Costa_Rica
+ CU	+2308-08222	America/Havana
+Index: tzdata/zone1970.tab
+===================================================================
+--- tzdata.orig/zone1970.tab
++++ tzdata/zone1970.tab
+@@ -127,7 +127,13 @@ CL	-3327-07040	America/Santiago	most of
+ CL	-5309-07055	America/Punta_Arenas	Region of Magallanes
+ CL	-2709-10926	Pacific/Easter	Easter Island
+ CN	+3114+12128	Asia/Shanghai	Beijing Time
+-CN	+4348+08735	Asia/Urumqi	Xinjiang Time
++CN	+3992+11646	Asia/Beijing	Beijing Time
++CN	+3067+10406	Asia/Chengdu	Beijing Time
++CN	+2959+10654	Asia/Chongqing	Beijing Time
++CN	+3204+11878	Asia/Nanjing	Beijing Time
++CN	+3052+11431	Asia/Wuhan	Beijing Time
++CN	+3427+10895	Asia/Xian	Beijing Time
++CN	+4377+08768	Asia/Urumqi	Beijing Time
+ CO	+0436-07405	America/Bogota
+ CR	+0956-08405	America/Costa_Rica
+ CU	+2308-08222	America/Havana

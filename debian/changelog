@@ -1,3 +1,9 @@
+tzdata (2023d-1deepin2) unstable; urgency=medium
+
+  * add Beijing Wuhan Chengdu Nanjing Xian city link to Shanghai.
+
+ -- liujianqiang <liujianqiang@uniontech.com>  Tue, 26 Nov 2024 10:59:08 +0800
+
 tzdata (2023d-1deepin1) unstable; urgency=medium
 
   * Convert Asia/Beijing to Asia/Shanghai.
